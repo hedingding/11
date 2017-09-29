@@ -33,6 +33,7 @@ public class WelcomeActivity extends Activity implements AdapterView.OnItemClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
         Log.e("a","a");
+        Log.e("b","b");
         ImageLoaderConfiguration configuration = ImageLoaderConfiguration
                 .createDefault(this);
         ImageLoader.getInstance().init(configuration);
