@@ -1,5 +1,7 @@
 package com.test.testgif;
 
+import android.util.Log;
+
 import java.io.InputStream;
 
 

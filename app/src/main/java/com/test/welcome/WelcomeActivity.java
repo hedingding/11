@@ -3,6 +3,7 @@ package com.test.welcome;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -31,7 +32,7 @@ public class WelcomeActivity extends Activity implements AdapterView.OnItemClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
-
+        Log.e("a","a");
         ImageLoaderConfiguration configuration = ImageLoaderConfiguration
                 .createDefault(this);
         ImageLoader.getInstance().init(configuration);
